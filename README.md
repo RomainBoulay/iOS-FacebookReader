@@ -17,7 +17,7 @@ Create a simple application that uses the Facebook graph api i.e.
 2. store that info in a local CoreData structure
 3. show that in a UserDetailView
 4. provide a refresh behaviour on that page
-5. the deployment target for the project must be iOS 4.0
+5. the deployment target for the project must be iOS 4.3
 
 
 # Bonus
@@ -29,4 +29,4 @@ What I've added to the initial test :
 - All interface orientation : portrait and landscape 
 - You can add a facebook user with the "+" button in the contact list. Then you have just to type a facebook id.
 - You can remove a contact from your list
-- All images will load in background
+- All images are loading in background
