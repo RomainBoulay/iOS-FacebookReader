@@ -406,7 +406,7 @@
 			dependencies = (
 			);
 			name = FacebookReader;
-			productName = Luluvise;
+			productName = FacebookReader;
 			productReference = 33A36FB71641D24600E40187 /* FacebookReader.app */;
 			productType = "com.apple.product-type.application";
 		};
