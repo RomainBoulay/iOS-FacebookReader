@@ -1,0 +1,39 @@
+//
+// Prefix header for all source files of the 'FacebookReader' target in the 'FacebookReader' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import "JSONKit.h"
+    #import "RBAppDelegate.h"
+    #import "NSDictionary+Utils.h"
+    #import "User+Utils.h"
+    #import "UserKeys.h"
+    #import "RBCoreDataHelpers.h"
+    #import "NSNotificationCenter+MainThread.h"
+#endif
+
+
+// URL MACRO
+#define FACEBOOK_GRAPH_BASE_URL @"https://graph.facebook.com"
+
+
+// CORE DATA MACROS
+#define MAIN_MOC                            ([(RBAppDelegate*)[[UIApplication sharedApplication] delegate] managedObjectContext])
+#define CLONED_MAIN_MANAGED_OBJECT_CONTEXT  ([(RBAppDelegate*)[[UIApplication sharedApplication] delegate] clonedManagedObjectContext])
+
+
+#define PATH_DOCUMENTS			[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+
+
+#define MALE_COLOR				[UIColor colorWithRed:173.0/255.0 green:217.0/255.0 blue:255.0/255.0 alpha:1.0]
+#define FEMALE_COLOR			[UIColor colorWithRed:255.0/255.0 green:227.0/255.0 blue:241.0/255.0 alpha:1.0]
+
