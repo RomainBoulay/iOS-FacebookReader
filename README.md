@@ -29,4 +29,4 @@ What I've added to the initial test :
 - All interface orientation : portrait and landscape 
 - You can add a facebook user with the "+" button in the contact list. Then you have just to type a facebook id.
 - You can remove a contact from your list
-- All images are loading in background
+- All images will load in background
